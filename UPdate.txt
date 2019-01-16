@@ -1,0 +1,25 @@
+void Task_fun::Update()
+{
+	system("CLS");
+	Load();
+	string name;
+	bool check = false;
+	information mydata;
+		cout << "Enter The Name Of Task you want to update : " << endl;
+		cin >> name;
+		for (it = link.begin(); it != link.end(); it++)
+		{
+			if (it->NameOfTask == name)
+			{
+				Delete(name);
+				cout << "Enter New Data " << endl;
+
+
+			}
+			else
+				cout << "Not Found Task Enter Valid Task and Try Agin " << endl;
+
+		}
+		insert();
+		cout << "Well Done !" << endl;
+}

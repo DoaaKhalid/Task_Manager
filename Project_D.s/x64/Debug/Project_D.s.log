@@ -1,0 +1,8 @@
+﻿  Task_fun.cpp
+f:\ds\task manager cosole final\project_d.s\task_fun.cpp(389): warning C4101: 'offset': unreferenced local variable
+  Source.cpp
+  Generating Code...
+f:\ds\task manager cosole final\project_d.s\task_fun.cpp(62): warning C4715: 'Task_fun::OnlyNom': not all control paths return a value
+f:\ds\task manager cosole final\project_d.s\task_fun.cpp(177): warning C4715: 'Task_fun::checkID': not all control paths return a value
+  Project_D.s.vcxproj -> F:\Ds\Task manager cosole Final\x64\Debug\Project_D.s.exe
+  Project_D.s.vcxproj -> F:\Ds\Task manager cosole Final\x64\Debug\Project_D.s.pdb (Full PDB)
